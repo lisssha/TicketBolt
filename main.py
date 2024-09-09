@@ -1,6 +1,5 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
-#все работает, осталось только разобраться с библиотекой. Но так как есть пример, то мейби должно быть с этим полегче
 import psycopg2
 from config import host, user, password, db_name
 
